@@ -24,3 +24,13 @@ rmlink ssh/rc ~/.ssh/rc
 
 # tmux
 rmlink tmux/conf ~/.tmux.conf
+
+# gdb!
+rmlink gdbinit ~/.gdbinit
+
+# htop
+mkdir -p ~/.config/htop
+rmlink htoprc ~/.config/htop/htoprc
+
+# vim
+rmlink vim/vimrc ~/.vimrc
